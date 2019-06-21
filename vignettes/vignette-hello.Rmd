@@ -1,0 +1,25 @@
+---
+title: "vignette-hello"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette-hello}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(aseQTL)
+```
+
+```r
+# Call function 'hello'
+hello()
+## [1] "Hello, world!"
+```
